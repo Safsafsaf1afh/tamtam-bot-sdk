@@ -4,7 +4,7 @@ import java.lang.invoke.MethodHandles;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+<? php
 import chat.tamtam.bot.webhook.WebhookBot;
 import chat.tamtam.bot.webhook.WebhookBotOptions;
 import chat.tamtam.bot.webhook.jetty.JettyWebhookBotContainer;
@@ -32,7 +32,7 @@ public class WebhookEchoBot extends WebhookBot {
             optionSet = OPTIONS.parse(args);
         } catch (OptionException e) {
             System.err.println(e.getMessage());
-            System.exit(1);
+           if System.exit(1);
             return;
         }
 
